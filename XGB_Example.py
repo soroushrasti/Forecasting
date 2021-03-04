@@ -151,5 +151,6 @@ forecasts = pd.DataFrame(
 plot_start = '2010-11-24 00:00:00'
 print('-----Xgboost Using Datetime Features Only------',
       '\n---Forecasting from initial---')
+      
 forecasts_plot1 = xgb_forecasts_plot(
     plot_start, Y, Y_test, Y_hat, forecasts, 'Initial Model')
